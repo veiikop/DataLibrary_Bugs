@@ -31,26 +31,26 @@ public class DateUtils
         else return "Воскресенье";
     }
 
-    public static bool CheckDate(int y, int m, int d)
+    public static bool CheckDate(int year, int month, int day)
     {
-        if (y < 1 || y > 9999) return false;
-        if (m < 1 || m > 12) return false;
-        if (d < 1) return false;
-        
+        if (year < 1 || year > 9999) return false;
+        if (month < 1 || month > 12) return false;
+        if (day < 1) return false;
+
         int[] daysInMonth = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-        
-        if (m == 2 && IsLeapYear(y))
+
+        if (month == 2 && IsLeapYear(year))
         {
-            if (d > 28) return false;
+            if (day > 29) return false;
         }
         else
         {
-            if (d > daysInMonth[m - 1]) return false;
+            if (day > daysInMonth[month - 1]) return false;
         }
-        
+
         return true;
     }
-    
+
     public static int DateDiff(DateTime d1, DateTime d2)
     {
         TimeSpan diff = d1 - d2;
