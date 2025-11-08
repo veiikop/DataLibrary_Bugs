@@ -1,0 +1,15 @@
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\bin\Debug\net8.0\DateLibrary_Bugs.exe
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\bin\Debug\net8.0\DateLibrary_Bugs.deps.json
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\bin\Debug\net8.0\DateLibrary_Bugs.runtimeconfig.json
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\bin\Debug\net8.0\DateLibrary_Bugs.dll
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\bin\Debug\net8.0\DateLibrary_Bugs.pdb
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\DateLibrary_Bugs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\DateLibrary_Bugs.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\DateLibrary_Bugs.AssemblyInfo.cs
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\DateLibrary_Bugs.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\DateLibrary_Bugs.sourcelink.json
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\DateLibrary_Bugs.dll
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\refint\DateLibrary_Bugs.dll
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\DateLibrary_Bugs.pdb
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\DateLibrary_Bugs.genruntimeconfig.cache
+C:\Users\user\Source\Repos\DataLibrary_Bugs\DateLibrary_Bugs\obj\Debug\net8.0\ref\DateLibrary_Bugs.dll

@@ -10,10 +10,11 @@ namespace DateLibrary_Bugs
     {
         public static bool IsValidDate(string date, string format)
         {
+            if (string.IsNullOrEmpty(date)) return false;
+
             try
             {
-                DateTime dt = DateTime.ParseExact(date, format,
-                    System.Globalization.CultureInfo.InvariantCulture);
+                DateTime dt = DateTime.ParseExact(date, format, System.Globalization.CultureInfo.InvariantCulture);
                 return true;
             }
             catch
