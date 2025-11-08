@@ -2,15 +2,15 @@ namespace DateLibrary_Bugs;
 
 public class DateUtils
 {
-    public static string ConvertDate(string d, int f)
+    public static string ConvertDate(string date, int format)
     {
-        if (f == 1)
+        if (format == 1)
         {
-            var parts = d.Split('/');
+            var parts = date.Split('/');
             if (parts.Length == 3)
-                return parts[1] + "/" + parts[0] + "/" + parts[2]; 
+                return parts[1] + "/" + parts[0] + "/" + parts[2];
         }
-        else if (f == 2)
+        else if (format == 2)
         {
             var parts = d.Split('/');
             if (parts.Length == 3)
