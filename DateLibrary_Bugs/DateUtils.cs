@@ -4,19 +4,15 @@ public class DateUtils
 {
     public static string ConvertDate(string date, int format)
     {
-        if (format == 1)
+        var parts = date.Split('/');
+        if (parts.Length != 3) return date;
+
+        return format switch
         {
-            var parts = date.Split('/');
-            if (parts.Length == 3)
-                return parts[1] + "/" + parts[0] + "/" + parts[2];
-        }
-        else if (format == 2)
-        {
-            var parts = d.Split('/');
-            if (parts.Length == 3)
-                return parts[1] + "/" + parts[0] + "/" + parts[2];
-        }
-        return d;
+            1 => parts[1] + "/" + parts[0] + "/" + parts[2], 
+            2 => parts[1] + "/" + parts[0] + "/" + parts[2], 
+            _ => date
+        };
     }
 
     public static string GetDayOfWeek(DateTime dt)
