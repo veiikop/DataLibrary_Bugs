@@ -67,9 +67,9 @@ public class DateUtils
         return d.AddDays(-days);
     }
 
-    public static bool IsLeapYear(int y)
+    public static bool IsLeapYear(int year)
     {
-        return (y % 4 == 0);
+        return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
 
     public static void ProcessAllDateOperations(string dateStr1, string dateStr2, int daysToAdd)
